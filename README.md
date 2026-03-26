@@ -111,7 +111,8 @@ You only need to do this **once**. After that, just use `start.bat`.
 3. Wait a few seconds for the intro animation
 4. You're in!
 
-> If you see a blue spinning light but the app never loads, close it, wait 5 seconds, and try again. This can happen on the first launch.
+> If you see a blue spinning light but the app never loads,
+ close it, wait 5 seconds, and try again. This can happen on the first launch.
 
 \---
 
@@ -131,7 +132,8 @@ The app streams directly from your hard drive, so an SSD will give smoother play
 
 ### Shorts are too small
 
-* go to your settings enable editing mode and you can grab the corner of the shorts and make it bigger and move it around
+* go to your settings enable editing mode and you can
+grab the corner of the shorts and make it bigger and move it around
 
 
 
@@ -155,7 +157,8 @@ Node.js isn't installed or didn't install properly:
 
 * Check your internet connection
 * Try running setup.bat again
-* If it keeps failing, open cmd and navigate to `whonet-app` folder and run `npm install` manually
+* If it keeps failing, open cmd and navigate
+to `whonet-app` folder and run `npm install` manually
 
 ### App opens but is very small or very large
 
@@ -163,7 +166,9 @@ Right-click your desktop → Display Settings → Scale — try setting it to 10
 
 ### Watch history disappeared
 
-The watch history is stored in your Windows user profile. It should persist between launches. If it gets reset, check that you're not running the app as a different user.
+The watch history is stored in your Windows user profile.
+ It should persist between launches. If it gets reset,
+ check that you're not running the app as a different user.
 
 \---
 
@@ -211,6 +216,8 @@ The app is built with:
 
 * **Electron** — wraps the web app into a desktop window
 * **React + Vite** — the UI framework and build tool
-* **Custom `media://` protocol** — Electron intercepts `media://` URLs and serves files from your local `media/` folder. This is how the app can play videos from your hard drive without any web server.
+* **Custom `media://` protocol** —
+ Electron intercepts `media://` URLs and serves files from your local `media/` folder.
+ This is how the app can play videos from your hard drive without any web server.
 * **localStorage** — watch progress is saved in Electron's app data folder
 
