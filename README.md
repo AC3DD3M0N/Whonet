@@ -2,6 +2,7 @@
 WHOnet — Windows Desktop App Setup Guide What This Does Runs fully offline from your local hard drive Plays your own video files directly Stores watch progress between sessions Opens like any other Windows app ---
 Folder Structure (Required)
 You must arrange your files exactly like this. Everything depends on these locations make sure all capitalization is the same. all episode numbering is copied from imdb if that helps when organizing your episodes
+make sure the media folder is right next to the WHOnet-electron folder and not inside it
 ```
 Whonet(PROTOTYPE)/                          ← This is your root folder │
 ├── WHOnet-electron/                  ← The app files (this folder, unzipped)
