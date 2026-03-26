@@ -3,6 +3,8 @@ WHOnet — Windows Desktop App Setup Guide What This Does Runs fully offline fro
 Folder Structure (Required)
 You must arrange your files exactly like this. Everything depends on these locations make sure all capitalization is the same. all episode numbering is copied from imdb if that helps when organizing your episodes
 make sure the media folder is right next to the WHOnet-electron folder and not inside it
+
+
 FULL TUTORIAL HERE ----> https://youtu.be/ArWMJep6fRw
 ```
 Whonet(PROTOTYPE)/                          ← This is your root folder │
