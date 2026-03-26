@@ -213,4 +213,3 @@ The app is built with:
 * **Custom `media://` protocol** — Electron intercepts `media://` URLs and serves files from your local `media/` folder. This is how the app can play videos from your hard drive without any web server.
 * **localStorage** — watch progress is saved in Electron's app data folder
 
-The `media://` protocol handler is in `electron/main.js`. If you want to change where the media folder is located, edit this line in 
