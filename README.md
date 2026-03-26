@@ -42,7 +42,8 @@ Whonet(PROTOTYPE)/                          ← This is your root folder │
     │       │   └── ...
     │       ├── season1/
     │       └── season2/
-> \\\*\\\*Critical:\\\*\\\* The `media` folder must be \\\*\\\*next to\\\*\\\* (a sibling of) the `WHOnet-electron` folder, not inside it.
+> \\\*\\\*Critical:\\\*\\\* The `media` folder must be \\\*\\\*next to\\\*\\\* (a sibling of)
+the `WHOnet-electron` folder, not inside it.
 
 \---
 
